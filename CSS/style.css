@@ -44,8 +44,7 @@ header {
     width: auto;
     display: table;
     margin: 0 auto;
-    transform: translateY(-300px);
-    
+    transform: translateY(-300px); 
     }
     
     nav a {
@@ -206,11 +205,12 @@ header {
 }
 
 
-/*Aquí va Crony*/
+/*---------------- Crony ---------------*/
 
 
-/*Aquí va Deisy*/
+/*---------------  Deisy --------------*/
 
+/* CATÁLOGO CARDS */
 .catalogo{
     display: flex;
     flex-wrap: wrap;
@@ -223,6 +223,9 @@ header {
     height: 320px;
     width: 300px;
     margin: 10px;
+}
+img{
+    width: 290px;
 }
 
 /*Slider*/
