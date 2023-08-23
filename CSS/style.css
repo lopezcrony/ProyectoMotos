@@ -8,6 +8,10 @@ body{
     z-index: 10;
 }
 
+a{
+    text-decoration: none;
+}
+
 
 .container{
     top: 60px
@@ -205,11 +209,6 @@ header {
 }
 
 
-/*---------------- Crony ---------------*/
-
-
-/*---------------  Deisy --------------*/
-
 /* CATÁLOGO CARDS */
 .catalogo{
     display: flex;
@@ -217,16 +216,30 @@ header {
     justify-content: center;
 }
 
+.cards img:hover{    
+    transform: scale(1.1);
+    transition: 0.5;
+    /* filter: brightness(50%); */
+}
 .cards{
     border: 1px black solid;
     border-radius: 15px;
-    height: 320px;
-    width: 300px;
     margin: 10px;
+    padding: 10px;
+
 }
+
 img{
     width: 290px;
 }
+
+.boton{
+    border-radius: 4px;
+    background-color: rgb(243, 67, 67);
+    color: #000000;
+}
+
+
 
 /*Slider*/
 
