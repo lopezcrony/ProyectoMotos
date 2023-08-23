@@ -1,20 +1,18 @@
 * {
-    font-family: 'Handjet', cursive;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    color:#292929 ;
 }
 
 body{
-   
     position: relative;
     z-index: 10;
+    color:#292929 ;
 }
-
-a{
-    text-decoration: none;
-}
-
 
 .container{
     top: 60px
+
 }
 .c{
     text-align: center;
@@ -34,6 +32,7 @@ header {
     margin: -90px -60px;
     background-color: #292929;
     display: table;
+    z-index: 1000;
     }
     
     ul,ol {
