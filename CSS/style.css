@@ -32,6 +32,7 @@ header {
     margin: -90px -60px;
     background-color: #292929;
     display: table;
+    z-index: 1000;
     }
     
     ul,ol {
@@ -229,6 +230,7 @@ header {
 img{
     width: 290px;
 }
+
 
 /*Slider*/
 
