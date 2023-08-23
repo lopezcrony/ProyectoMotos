@@ -4,24 +4,93 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Motos</title>
+    <link rel="stylesheet" href="../CSS/barra.css">
+    <link rel="stylesheet" href="../CSS/fondo.css">
+    <link rel="stylesheet" href="../CSS/slider.css">
 </head>
-<body>
-    <nav >
+<body class="container">
+
+    <header>
         <ul>
-            <li><a href="index.html">Inicio</a></li>
-        
-            <li><a href="Catalogo.html">Catálogo</a><ul>
-            <li><a href="Automaticas.html">Automáticas</a></li>
-            <li><a href="Semiautomaticas.html">Semiutomáticas</a></li>
-            <li><a href="AltoCilindraje.html">Alto Cilindraje</a></li>
-            <li><a href="Todas.html">Todas</a></li></li>
-            </ul>
-            <li><a href="Nosotros.html">Nosotros</a></li>
-            <li><a href="Contactanos.html">Contáctanos</a></li>
+            <nav>
+                <a href="index.html">INICIO</a>
+                <li><a href="Catalogo.html" >CATALOGO</a>
+                    <ul class="submenu">
+                        <a href="Automaticas.html">Automáticas</a>
+                        <a href="Semiautomaticas.html">Semiautomáticas</a>
+                        <a href="AltoCilindraje.html">Alto Cilindraje</a>
+                    </ul>
+                </li>
+                <a href="Nosotros.html">NOSOTROS</a>
+                <a href="Contactanos.html">CONTACTANOS</a>
+                <div id="indicator"></div>
+            </nav>
         </ul>
-    </nav>
+    </header> 
+
     <main>
-        <h1>Conoce nuestros modelos (Automaticas)</h1>
+
+        <section>
+            <h1>Conoce nuestros modelos (Automaticas)</h1>
+
+            
+            <div class="slide">
+                <div class="slide-inner">
+
+                    <input class="slide-open" type="radio" id="slide-1" 
+                          name="slide" aria-hidden="true" hidden="" checked="checked">
+                    <div class="slide-item">
+                        <img src="https://static.wixstatic.com/media/3104c9_74dd6ed8d59e4144970b28c9b6c24d5b~mv2.png/v1/fill/w_480,h_480,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/3104c9_74dd6ed8d59e4144970b28c9b6c24d5b~mv2.png" alt="YAMAHA XMAX 300">
+                    </div>
+
+                    <input class="slide-open" type="radio" id="slide-2" 
+                          name="slide" aria-hidden="true" hidden="">
+                    <div class="slide-item">
+                        <img src="https://www.incolmotos-yamaha.com.co/wp-content/uploads/2021/03/nmax_gris.png">
+                    </div>
+
+                    <input class="slide-open" type="radio" id="slide-3" 
+                          name="slide" aria-hidden="true" hidden="">
+                    <div class="slide-item">
+                        <img src="https://zagamotos.com/wp-content/uploads/2019/12/DIO-DLX-Gris-360-mediolado2.jpg" alt="Honda DIO led DLX">
+                    </div>
+
+                    <label for="slide-3" class="slide-control prev control-1">‹</label>
+                    <label for="slide-2" class="slide-control next control-1">›</label>
+                    <label for="slide-1" class="slide-control prev control-2">‹</label>
+                    <label for="slide-3" class="slide-control next control-2">›</label>
+                    <label for="slide-2" class="slide-control prev control-3">‹</label>
+                    <label for="slide-1" class="slide-control next control-3">›</label>
+                    <ol class="slide-indicador">
+
+                        <li>
+                            <label for="slide-1" class="slide-circulo">•</label>
+                        </li>
+                        <li>
+                            <label for="slide-2" class="slide-circulo">•</label>
+                        </li>
+                        <li>
+                            <label for="slide-3" class="slide-circulo">•</label>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+
+
+        </section>
+
+
+
+
+
+
+
+
+       
+
+
+
+        
     </main>
     
 </body>

@@ -4,79 +4,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Motos</title>
+    <link rel="stylesheet" href="../CSS/barra.css">
+    <link rel="stylesheet" href="../CSS/fondo.css">
 </head>
-<body>
+<body class="container">
 
-    <header class="m">
-      <nav >
+  <header>
         <ul>
-            <li><a href="index.html">Inicio</a></li>
-        
-            <li><a href="Catalogo.html">Catálogo</a><ul>
-            <li><a href="Automaticas.html">Automáticas</a></li>
-            <li><a href="Semiautomaticas.html">Semiutomáticas</a></li>
-            <li><a href="AltoCilindraje.html">Alto Cilindraje</a></li>
-            <li><a href="Todas.html">Todas</a></li></li>
-            </ul>
-            <li><a href="Nosotros.html">Nosotros</a></li>
-            <li><a href="Contactanos.html">Contáctanos</a></li>
+            <nav>
+                <a href="index.html">INICIO</a>
+                <li><a href="Catalogo.html" >CATALOGO</a>
+                    <ul class="submenu">
+                        <a href="Automaticas.html">Automáticas</a>
+                        <a href="Semiautomaticas.html">Semiautomáticas</a>
+                        <a href="AltoCilindraje.html">Alto Cilindraje</a>
+                    </ul>
+                </li>
+                <a href="Nosotros.html">NOSOTROS</a>
+                <a href="Contactanos.html">CONTACTANOS</a>
+                <div id="indicator"></div>
+            </nav>
         </ul>
-    </nav>
-    </header>
-
-    <h1>Contactanos</h1>
+    </header> 
 
 
-    <form action="/signup" method="post">
+    <h1>Contáctanos</h1>
+
+
+    <form class="c" action="/signup" method="post">
         <p>
-          <label>Title</label><br>
-          <label>
-            <input type="radio" name="title" value="mr">
-            Mr
-          </label>
-          <label>
-            <input type="radio" name="title" value="mrs">
-            Mrs
-          </label>
-          <label>
-            <input type="radio" name="title" value="miss">
-            Miss
-          </label>
+          <label><input type="radio" name="title" value="mrs">Sr.</label> 
+          <label><input type="radio" name="title" value="miss">Sra.</label>
         </p>
         <p>
-          <label>First name</label><br>
+          <label>Nombre</label><br>
           <input type="text" name="first_name">
         </p>
         <p>
-          <label>Last name</label><br>
+          <label>Apellido</label><br>
           <input type="text" name="last_name">
         </p>
         <p>
-          <label>Email</label><br>
+          <label>Correo</label><br>
           <input type="email" name="email" required>
         </p>
         <p>
-          <label>Phone number</label><br>
+          <label>Número</label><br>
           <input type="tel" name="phone">
         </p>
         <p>
-          <label>Password</label><br>
+          <label>Contraseña</label><br>
           <input type="password" name="password">
         </p>
         <p>
-          <label>Country</label><br>
+          <label>Ciudad</label><br>
           <select>
-            <option>China</option>
-            <option>India</option>
-            <option>United States</option>
-            <option>Indonesia</option>
-            <option>Brazil</option>
+            <option>Medellín</option>
+            <option>Bogotá</option>
+            <option>Bucaramanga</option>
+            <option>Cali</option>
+            <option>Cartagena</option>
           </select>
         </p>
         <p>
           <label>
             <input type="checkbox" value="terms">
-            I agree to the <a href="/terms">terms and conditions</a>
+            Acepto los <a href="/terms">términos y condiciones.</a>
           </label>
         </p>
         <p>
