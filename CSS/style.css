@@ -1,7 +1,7 @@
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
     color:#292929 ;
+    margin: 0;
 }
 
 body{
@@ -25,13 +25,13 @@ section{
 /*Barra*/
 
 header {
-    position: fixed;
-    width: 105.3%;
+    width: 100%;
     height: 70px;
-    margin: -90px -60px;
-    background-color: #292929;
-    display: table;
+    display: flex;
     z-index: 1000;
+    background-color: #000000;
+    justify-content: flex-end;
+    margin-right: 30px;
     }
     
     ul,ol {
@@ -39,36 +39,50 @@ header {
     }
     
     nav {
-    position: fixed;
-    top: 50%;
-    right: -90px;
-    left: 500px;
-    width: auto;
+    position: relative;
     display: table;
-    margin: 0 auto;
-    transform: translateY(-300px); 
+    background-color: black;
+    padding-right: 30px;
+    
     }
     
     nav a {
-    position: relative;
-    width: 100px;
+    position: static ;
+    width: 60px;
     display:inline-block;
-    text-align: center;
-    color: #949494;
+    text-align: right;
+    color:gray;
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
-    padding: 10px 20px;
     transition: 0.2s ease color;
+    margin-right:20px;
+    padding: 10px auto;
     }
     
-    nav > li {
+    nav ul > li {
     display:inline-table;
+    padding:10px 30px;
+    position:static;
     }
+
+   nav ul{
+    padding-right: 120px;
+   }
+
+    nav ul li a {
+        color:#949494;
+        text-decoration:none;
+        padding:10px 10px;
+        display:block;
+        text-align: right;
+        }
     
     .submenu {
     width: 100%;
     display: none;
+    position: fixed;
+    background-color: #000000;
     }
     
     .submenu li {
@@ -76,26 +90,14 @@ header {
     }
     
     .submenu a:hover{
-      color: #000000;
+      color:red;
     
     }
     nav li:hover .submenu {
     display:table-row;
     
     }
-
     
-    nav li a {
-    text-align: left;
-    color:#949494;
-    text-decoration:none;
-    padding:10px 12px;
-    display:block;
-    }
-    
-    nav  > li {
-    position:static;
-    }
     
     .burbujas, nav > a:before,
     nav > a:after {
@@ -161,8 +163,8 @@ header {
     transition: 0.2s ease left;
     }
     
-   nav > a:hover {
-    color: #fff;
+   nav li > a:hover {
+    color: red;
     }
     
    nav > a:hover:before,
@@ -170,7 +172,7 @@ header {
     transform: scale(1);
     }
     
-   nav > a:nth-child(1):hover ~ #indicator {
+   nav  a:nth-child(1):hover ~ #indicator {
     background: linear-gradient(130deg, yellow, red);
     }
     
