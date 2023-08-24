@@ -263,6 +263,14 @@ img{
     height: auto;
     max-width: 400px;
 }
+
+/*Slide de inicio*/
+.slide-item4 img {
+    display: flex;
+    height: 400px;
+    max-width: 500px;
+}
+
 .slide-control {
     background: rgba(0, 0, 0, 0.28);
     border-radius: 50%;
