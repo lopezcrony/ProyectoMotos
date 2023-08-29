@@ -1,6 +1,7 @@
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color:#292929 ;
+    text-align: center;
     
 }
 
@@ -8,18 +9,36 @@ body{
     position: relative;
     z-index: 10;
     top: 60px;
+    margin-right: 0;
+    margin-left: 0;
     color:#292929 ;
     
 }
 
+footer{
+    background-color: #292929;
+    z-index: -1;
+    height: 150px;
+    width: 100%;
+    position: static;
 
+}
+
+footer p{
+    z-index: 1;
+    color: white;
+    padding: 20px 20px;
+    margin-top: 90px;
+}
+
+a{
+    text-decoration: none;
+}
 
 .c{
     text-align: center;
     margin: 20px 20px;
 }
-
-
 
 /*Barra*/
 
@@ -102,9 +121,6 @@ nav li:hover .submenu {
 nav li:hover ul a {
     right: 35px;  
 }
-    
-
-
     
 nav  a:before,
 nav  a:after {
@@ -234,6 +250,7 @@ nav  a:after {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-top: 50px;
 }
 
 .cards img:hover{    
@@ -246,19 +263,33 @@ nav  a:after {
     border-radius: 15px;
     margin: 10px;
     padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align:center;
 }
 
-img{
-    width: 290px;
+.cards img{
+    width: 260px;
+    height: 200px;
+    padding: 3px;
 }
 
 .boton{
-    border-radius: 4px;
-    background-color: rgb(243, 67, 67);
-    color: #000000;
+    border-radius: 2px;
+    background-color: red;
+    color: white;
 }
 
+section span h2{
+    color: black;
+}
 
+/*CATÁLOGO INFORMACIÓN*/
+
+.cards p{
+    font-weight:bolder;
+}
 
 /*Slider*/
 
