@@ -291,6 +291,18 @@ section span h2{
     font-weight:bolder;
 }
 
+.imagen{
+    background-image: url(../IMG/catalogo.jpg);
+}
+
+section span h2{
+    z-index:1 ;
+}
+
+section span img{
+    z-index: -1;
+}
+
 /*Slider*/
 
 .slide {
