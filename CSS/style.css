@@ -431,7 +431,7 @@ section span img{
 .tarjeta1{
     border: 1px rgb(175, 175, 175) solid;
     border-radius: 15px;
-    margin: 10px 400px;
+    margin: 30px 400px;
     padding: 10px;
     position: relative;
     right: 20%;
@@ -444,7 +444,7 @@ section span img{
 
     border: 1px rgb(175, 175, 175) solid;
     border-radius: 15px;
-    margin: 10px 400px;
+    margin: 30px 400px;
     padding: 10px;
     position: relative;
     left: 20%;
@@ -458,15 +458,13 @@ section span img{
 
     border: 1px rgb(175, 175, 175) solid;
     border-radius: 15px;
-    margin: 10px 400px;
+    margin: 30px 400px;
     padding: 10px;
     position: relative;
     right: 20%;
     box-shadow: 10px 12px 29px -1px rgba(0,0,0,0.75);
     -webkit-box-shadow: 10px 12px 29px -1px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 12px 29px -1px rgba(0,0,0,0.75);
-
-
 }
 
 .about{
@@ -477,4 +475,19 @@ section span img{
 
 .about img{
     width: 20%;
+}
+
+/*CONTÁCTANOS*/
+
+.tarjeta{
+
+    border: 1px rgb(175, 175, 175) solid;
+    border-radius: 15px;
+    margin: 30px 400px;
+    padding: 10px;
+    position: relative;
+
+    box-shadow: 10px 12px 29px -1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 12px 29px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 12px 29px -1px rgba(0,0,0,0.75);
 }
