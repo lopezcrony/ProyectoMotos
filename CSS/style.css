@@ -335,9 +335,45 @@ section span img{
 /*Slide de inicio*/
 .slide-item4 img {
     display: flex;
-    height: 400px;
+    height: 310px;
+    max-height: 200;
+    width: 800px;
     max-width: 500px;
 }
+.slide4 {
+    position: relative;
+    box-shadow: 0px 1px 6px rgba(17, 3, 171, 0.64);
+    margin-top: 100px;
+}
+.slide-inner4 {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: calc( 300px + 3em);
+}
+.slide-open4:checked + .slide-item4 {
+    position: static;
+    opacity: 100;
+}
+.slide-item4 {
+    position: absolute;
+    opacity: 0;
+    -webkit-transition: opacity 0.6s ease-out;
+    transition: opacity 0.6s ease-out;
+}
+.slide-item4 img {
+    display: block;
+    height: 350;
+    width: 1400px;
+    max-width: 4200px;
+}
+.imagen-c img {
+    height: 350;
+    width: 1400px;
+    max-width: 4200px;
+
+}
+/*Fin slide de inicio*/
 
 .slide-control {
     background: rgba(0, 0, 0, 0.28);
