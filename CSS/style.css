@@ -1,6 +1,6 @@
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color:#828282 ;
+    
     text-align: center;
     
 }
@@ -14,19 +14,15 @@ body{
 }
 
 footer{
-    background-color: #292929;
-    z-index: -1;
-    height: 150px;
-    width: 100%;
-    position: static;
-
-}
-
-footer p{
-    z-index: 1;
-    color: #949494;
-    padding: 20px 20px;
-    margin-top: 90px;
+  position: static;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color:#292929;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  margin-top: 60px;
 }
 
 a{
@@ -309,14 +305,11 @@ section span h2{
      color: #fff;
 }
 
-section span h2{
-    z-index:1 ;
-}
 
-section span img{
-    z-index: -1;
+.dividir{
+    display: flex;
+    justify-content: space-evenly;
 }
-
 /*Slider*/
 
 .slide {
@@ -491,12 +484,6 @@ section span img{
     width: 20%;
 }
 
-<<<<<<< HEAD
-.blabla{
-    display: flex;
-    justify-content: space-evenly;
-}
-=======
 /*CONTÁCTANOS*/
 
 .tarjeta{
@@ -511,4 +498,3 @@ section span img{
     -webkit-box-shadow: 10px 12px 29px -1px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 12px 29px -1px rgba(0,0,0,0.75);
 }
->>>>>>> 0faab124aeb57a77d22f942402204889d0c2c46a
