@@ -1,6 +1,5 @@
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
     text-align: center;
     
 }
@@ -22,7 +21,7 @@ footer{
   right: 0;
   background-color:#292929;
   color: white;
-  padding: 20px;
+  padding: 10px;
   text-align: center;
   margin-top: 60px;
 }
@@ -34,6 +33,27 @@ a{
 .c{
     text-align: center;
     margin: 20px 20px;
+}
+
+/*Footer*/
+.iconos{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: start;
+    padding-top: 10px;
+    margin-left: 0;
+    font-size: 12px;
+    font-family: cursive;
+}
+
+.derechos{
+    padding-top: 25px;
+    font-family: cursive;
+
+}
+
+.iconos img{
+    padding-top: 10px;
 }
 
 /*Barra*/
@@ -52,6 +72,16 @@ header {
   right: 0;
 }
   
+header ul img{
+    display: flex;
+    justify-content: left;
+    align-content: start;
+    align-items:end;
+    width: 15%;
+    height: 35px;
+    padding-top: 10px;
+}
+
 ul,ol {
   list-style:none;
 }
@@ -244,6 +274,9 @@ nav  a:after {
 }
 
 
+
+
+
 /* CATÁLOGO CARDS */
 .catalogo{
     display: flex;
@@ -284,6 +317,10 @@ section span h2{
     color: black;
 }
 
+
+
+
+
 /*CATÁLOGO INFORMACIÓN*/
 
 .cards p{
@@ -312,12 +349,13 @@ section span h2{
 .dividir{
     display: flex;
     justify-content: space-evenly;
+    align-items: start;
     padding-top: 10px;
-    padding-left: 50px;
+    margin: 0;
 }
 
 .tablaInfo{
-    padding-top: 60px;
+    padding-top: 40px;
 }
 
 .name p{
@@ -331,6 +369,11 @@ section span h2{
 section .especificaciones img{
     padding-top: 20px;
 }
+
+
+
+
+
 /*Slider*/
 
 .slide {
