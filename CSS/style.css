@@ -13,6 +13,8 @@ body{
     color: #292929;
 }
 
+
+
 footer{
   position: static;
   bottom: 0;
@@ -46,7 +48,8 @@ header {
   display: table;
   z-index: 100;
   background-color: #292929;
-
+  left: 0;
+  right: 0;
 }
   
 ul,ol {
@@ -309,6 +312,24 @@ section span h2{
 .dividir{
     display: flex;
     justify-content: space-evenly;
+    padding-top: 10px;
+    padding-left: 50px;
+}
+
+.tablaInfo{
+    padding-top: 60px;
+}
+
+.name p{
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 700;
+    text-decoration: underline red;
+    text-shadow: 2px 2px 5px grey;
+}
+
+section .especificaciones img{
+    padding-top: 20px;
 }
 /*Slider*/
 
