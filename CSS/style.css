@@ -1,6 +1,5 @@
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color:#828282 ;
     text-align: center;
     
 }
@@ -13,20 +12,18 @@ body{
     color: #292929;
 }
 
+
+
 footer{
-    background-color: #292929;
-    z-index: -1;
-    height: 150px;
-    width: 100%;
-    position: static;
-
-}
-
-footer p{
-    z-index: 1;
-    color: #949494;
-    padding: 20px 20px;
-    margin-top: 90px;
+  position: static;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color:#292929;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  margin-top: 60px;
 }
 
 a{
@@ -36,6 +33,27 @@ a{
 .c{
     text-align: center;
     margin: 20px 20px;
+}
+
+/*Footer*/
+.iconos{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: start;
+    padding-top: 10px;
+    margin-left: 0;
+    font-size: 12px;
+    font-family: cursive;
+}
+
+.derechos{
+    padding-top: 25px;
+    font-family: cursive;
+
+}
+
+.iconos img{
+    padding-top: 10px;
 }
 
 /*Barra*/
@@ -50,9 +68,20 @@ header {
   display: table;
   z-index: 100;
   background-color: #292929;
-
+  left: 0;
+  right: 0;
 }
   
+header ul img{
+    display: flex;
+    justify-content: left;
+    align-content: start;
+    align-items:end;
+    width: 15%;
+    height: 35px;
+    padding-top: 10px;
+}
+
 ul,ol {
   list-style:none;
 }
@@ -245,6 +274,9 @@ nav  a:after {
 }
 
 
+
+
+
 /* CATÁLOGO CARDS */
 .catalogo{
     display: flex;
@@ -285,6 +317,10 @@ section span h2{
     color: black;
 }
 
+
+
+
+
 /*CATÁLOGO INFORMACIÓN*/
 
 .cards p{
@@ -309,13 +345,47 @@ section span h2{
      color: #fff;
 }
 
-section span h2{
-    z-index:1 ;
+
+.dividir{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    padding-top: 10px;
+    margin: 0;
 }
 
-section span img{
-    z-index: -1;
+.tablaInfo{
+    padding-top: 10px;
 }
+
+.name p{
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 700;
+    text-decoration: underline red;
+    text-shadow: 2px 2px 5px grey;
+}
+
+section .especificaciones img{
+    padding-top: 20px;
+}
+
+.dividir .tablaInfo p{
+    font-size: 30px;
+    font-weight: 800;
+    color: red;
+    font-family: cursive;
+    border: red dashed;
+    border-radius: 4px;
+}
+
+.dividir .tablaInfo i{
+    font-size: 12px;
+    font-family: cursive;
+    color: black;
+    font-weight:170;
+}
+
 
 /*Slider*/
 
@@ -527,12 +597,6 @@ section span img{
     width: 20%;
 }
 
-<<<<<<< HEAD
-.blabla{
-    display: flex;
-    justify-content: space-evenly;
-}
-=======
 /*CONTÁCTANOS*/
 
 .tarjeta{
@@ -547,4 +611,3 @@ section span img{
     -webkit-box-shadow: 10px 12px 29px -1px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 12px 29px -1px rgba(0,0,0,0.75);
 }
->>>>>>> 0faab124aeb57a77d22f942402204889d0c2c46a
