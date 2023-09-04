@@ -355,7 +355,7 @@ section span h2{
 }
 
 .tablaInfo{
-    padding-top: 40px;
+    padding-top: 10px;
 }
 
 .name p{
@@ -370,8 +370,21 @@ section .especificaciones img{
     padding-top: 20px;
 }
 
+.dividir .tablaInfo p{
+    font-size: 30px;
+    font-weight: 800;
+    color: red;
+    font-family: cursive;
+    border: red dashed;
+    border-radius: 4px;
+}
 
-
+.dividir .tablaInfo i{
+    font-size: 12px;
+    font-family: cursive;
+    color: black;
+    font-weight:170;
+}
 
 
 /*Slider*/
