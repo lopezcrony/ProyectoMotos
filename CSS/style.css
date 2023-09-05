@@ -12,7 +12,7 @@ body{
 }
 
 p{
-    color: #ffffffa8;
+    color: #ffffffd7;
 }
 
 .titulos{
@@ -546,12 +546,11 @@ section .especificaciones img{
 /*NOSOTROS*/
 
 .body{
-    color: #828282;
     background-color:#292929 ;
 }
 
 .cuerpo > section >div> h1{
-    color:#ffffff7a;
+    color:#ffffffcb;
 } 
 
 .tarjeta1{
@@ -613,6 +612,15 @@ section .especificaciones img{
     align-items: start;
   }
 
+  video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 850px;
+    object-fit: cover;
+}
+
   .H1{
     margin-top: 170px;
     font-family: 'Vollkorn', serif;
@@ -636,9 +644,8 @@ background-color: #000000a9;
 }
 
 .tarjeta input{
-    background-color: #58575786;
+    background-color: #504f4f86;
     border: #aaaaaa00;
-  
 }
 
 
@@ -649,14 +656,6 @@ background-color: #000000a9;
     min-height: 100vh;
     position: relative;
 }
-video{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 850px;
-    object-fit: cover;
-}
  
 .video{
     position: absolute;
@@ -666,3 +665,5 @@ video{
     height: auto;
     object-fit: cover;
 }
+
+::placeholder { color: rgba(255, 250, 240, 0.589); }
