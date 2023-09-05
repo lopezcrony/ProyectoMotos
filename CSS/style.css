@@ -418,16 +418,12 @@ section .especificaciones img{
 
 /*Slide de inicio*/
 .slide-item4 img {
-    display: flex;
     height: 310px;
-    max-height: 200;
-    width: 800px;
-    max-width: 500px;
+    margin:0;
 }
 .slide4 {
     position: relative;
     box-shadow: 0px 1px 6px rgba(17, 3, 171, 0.64);
-    margin-top: 100px;
 }
 .slide-inner4 {
     position: relative;
