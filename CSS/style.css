@@ -8,8 +8,6 @@ body{
     z-index: 10;
     top: 37px;
     margin: 0 ;
-    color: #828282;
-    background-color:#292929 ;
 }
 
 p{
@@ -545,6 +543,12 @@ section .especificaciones img{
 }
 
 /*NOSOTROS*/
+
+.body{
+    color: #828282;
+    background-color:#292929 ;
+}
+
 .cuerpo > section >div> h1{
     color:#ffffff7a;
 } 
