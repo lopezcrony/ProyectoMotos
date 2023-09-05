@@ -1,21 +1,27 @@
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
-    
 }
 
 body{
     position: relative;
     z-index: 10;
-    top: 60px;
-    margin: 0 auto;
-    color: #292929;
+    top: 37px;
+    margin: 0 ;
+    color: #828282;
+    background-color:#292929 ;
 }
 
+p{
+    color: #ffffffa8;
+}
 
+.titulos{
+    margin-top: 50px;
+}
 
 footer{
-  position: static;
+  position: relative;
   bottom: 0;
   left: 0;
   right: 0;
@@ -23,16 +29,19 @@ footer{
   color: white;
   padding: 10px;
   text-align: center;
-  margin-top: 60px;
+  margin-top: 150px;
+  z-index: 10;
 }
 
 a{
     text-decoration: none;
+    color: #ffffffa8;
 }
 
 .c{
     text-align: center;
     margin: 20px 20px;
+    top: 100px;
 }
 
 /*Footer*/
@@ -540,21 +549,17 @@ section .especificaciones img{
 }
 
 /*NOSOTROS*/
-/* .nosotros{
-    position: relative;
-    border: 1px solid #000;
-    width: 95%;
-    padding: 20px;
-    margin: 10px; 
-} */
+.cuerpo > section >div> h1{
+    color:#ffffff7a;
+} 
 
 .tarjeta1{
     border: 1px rgb(175, 175, 175) solid;
-    border-radius: 15px;
+    border-radius: 5px 50px;
     margin: 30px 400px;
-    padding: 10px;
+    padding: 20px;
     position: relative;
-    right: 20%;
+    right: 25%;
     box-shadow: 10px 12px 29px -1px rgba(0,0,0,0.75);
     -webkit-box-shadow: 10px 12px 29px -1px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 12px 29px -1px rgba(0,0,0,0.75);
@@ -563,11 +568,11 @@ section .especificaciones img{
 .tarjeta2{
 
     border: 1px rgb(175, 175, 175) solid;
-    border-radius: 15px;
+    border-radius: 50px 5px;
     margin: 30px 400px;
-    padding: 10px;
+    padding: 20px;
     position: relative;
-    left: 20%;
+    left: 25%;
     box-shadow: 10px 12px 29px -1px rgba(0,0,0,0.75);
     -webkit-box-shadow: 10px 12px 29px -1px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 12px 29px -1px rgba(0,0,0,0.75);
@@ -577,11 +582,11 @@ section .especificaciones img{
 .tarjeta3{
 
     border: 1px rgb(175, 175, 175) solid;
-    border-radius: 15px;
+    border-radius: 5px 50px ;
     margin: 30px 400px;
-    padding: 10px;
+    padding: 20px;
     position: relative;
-    right: 20%;
+    right: 25%;
     box-shadow: 10px 12px 29px -1px rgba(0,0,0,0.75);
     -webkit-box-shadow: 10px 12px 29px -1px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 12px 29px -1px rgba(0,0,0,0.75);
@@ -597,17 +602,66 @@ section .especificaciones img{
     width: 20%;
 }
 
+#contenedor {
+    margin: 100px 0px -120px 10px;
+    padding: 1px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: start;
+  }
+
+  .H1{
+    margin-top: 170px;
+    font-family: 'Vollkorn', serif;
+    color: #f11d1d96;
+  }
 /*CONTÁCTANOS*/
 
 .tarjeta{
-
+background-color: #000000a9;
     border: 1px rgb(175, 175, 175) solid;
     border-radius: 15px;
     margin: 30px 400px;
     padding: 10px;
     position: relative;
+    top: 80px;
+    
 
     box-shadow: 10px 12px 29px -1px rgba(0,0,0,0.75);
     -webkit-box-shadow: 10px 12px 29px -1px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 12px 29px -1px rgba(0,0,0,0.75);
+}
+
+.tarjeta input{
+    background-color: #58575786;
+    border: #aaaaaa00;
+  
+}
+
+
+.cuerpo{
+    text-align: center;
+    margin: 20px 20px;
+
+    min-height: 100vh;
+    position: relative;
+}
+video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 850px;
+    object-fit: cover;
+}
+ 
+.video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
 }
