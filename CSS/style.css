@@ -426,7 +426,7 @@ section .especificaciones img{
 
 /*Slide de inicio*/
 .slide-item4 img {
-    height: 310px;
+    height: 340px;
     margin:0;
 }
 .slide4 {
@@ -437,7 +437,7 @@ section .especificaciones img{
     position: relative;
     overflow: hidden;
     width: 100%;
-    height: calc( 300px + 3em);
+    height: calc( 770px + 3em);
 }
 .slide-open4:checked + .slide-item4 {
     position: static;
@@ -451,15 +451,14 @@ section .especificaciones img{
 }
 .slide-item4 img {
     display: block;
-    height: 350;
-    width: 1400px;
+    height: 820px;
+    width: 1738px;
     max-width: 4200px;
 }
 .c img {
     height: 450;
-    width: 1350px;
+    width: 1210px;
     max-width: 4200px;
-
 }
 /*Fin slide de inicio*/
 
