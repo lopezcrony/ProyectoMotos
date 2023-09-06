@@ -562,7 +562,7 @@ section .especificaciones img{
     box-shadow: 10px 12px 29px -1px rgba(0,0,0,0.75);
     -webkit-box-shadow: 10px 12px 29px -1px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 12px 29px -1px rgba(0,0,0,0.75);
-
+    background-color: #000000ab;
 }
 .tarjeta2{
 
@@ -575,11 +575,11 @@ section .especificaciones img{
     box-shadow: 10px 12px 29px -1px rgba(0,0,0,0.75);
     -webkit-box-shadow: 10px 12px 29px -1px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 12px 29px -1px rgba(0,0,0,0.75);
-
+    background-color: #000000ab;
 
 }
 .tarjeta3{
-
+    
     border: 1px rgb(175, 175, 175) solid;
     border-radius: 5px 50px ;
     margin: 30px 400px;
@@ -589,6 +589,7 @@ section .especificaciones img{
     box-shadow: 10px 12px 29px -1px rgba(0,0,0,0.75);
     -webkit-box-shadow: 10px 12px 29px -1px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 12px 29px -1px rgba(0,0,0,0.75);
+    background-color: #000000ab;
 }
 
 .about{
@@ -618,6 +619,7 @@ section .especificaciones img{
     width: 100%;
     height: 850px;
     object-fit: cover;
+
 }
 
   .H1{
