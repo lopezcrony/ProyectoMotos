@@ -1,21 +1,26 @@
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
-    
 }
 
 body{
     position: relative;
     z-index: 10;
-    top: 60px;
-    margin: 0 auto;
-    color: #292929;
+    top: 37px;
+    margin: 0 ;
+    color: #828282;
 }
 
+p{
+    color: #ffffffd7;
+}
 
+.titulos{
+    margin-top: 50px;
+}
 
 footer{
-  position: static;
+  position: relative;
   bottom: 0;
   left: 0;
   right: 0;
@@ -23,16 +28,19 @@ footer{
   color: white;
   padding: 10px;
   text-align: center;
-  margin-top: 60px;
+  margin-top: 150px;
+  z-index: 10;
 }
 
 a{
     text-decoration: none;
+    color: #ffffffa8;
 }
 
 .c{
     text-align: center;
     margin: 20px 20px;
+    top: 100px;
 }
 
 /*Footer*/
@@ -425,7 +433,7 @@ section .especificaciones img{
 
 /*Slide de inicio*/
 .slide-item4 img {
-    height: 310px;
+    height: 340px;
     margin:0;
 }
 .slide4 {
@@ -436,7 +444,7 @@ section .especificaciones img{
     position: relative;
     overflow: hidden;
     width: 100%;
-    height: calc( 300px + 3em);
+    height: calc( 770px + 3em);
 }
 .slide-open4:checked + .slide-item4 {
     position: static;
@@ -450,15 +458,14 @@ section .especificaciones img{
 }
 .slide-item4 img {
     display: block;
-    height: 350;
-    width: 1400px;
+    height: 820px;
+    width: 1738px;
     max-width: 4200px;
 }
 .c img {
     height: 450;
-    width: 1350px;
+    width: 1210px;
     max-width: 4200px;
-
 }
 /*Fin slide de inicio*/
 
@@ -543,51 +550,53 @@ section .especificaciones img{
 }
 
 /*NOSOTROS*/
-/* .nosotros{
-    position: relative;
-    border: 1px solid #000;
-    width: 95%;
-    padding: 20px;
-    margin: 10px; 
-} */
+
+.body{
+    background-color:#292929 ;
+}
+
+.cuerpo > section >div> h1{
+    color:#ffffffcb;
+} 
 
 .tarjeta1{
     border: 1px rgb(175, 175, 175) solid;
-    border-radius: 15px;
+    border-radius: 5px 50px;
     margin: 30px 400px;
-    padding: 10px;
+    padding: 20px;
     position: relative;
-    right: 20%;
+    right: 25%;
     box-shadow: 10px 12px 29px -1px rgba(0,0,0,0.75);
     -webkit-box-shadow: 10px 12px 29px -1px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 12px 29px -1px rgba(0,0,0,0.75);
-
+    background-color: #000000ab;
 }
 .tarjeta2{
 
     border: 1px rgb(175, 175, 175) solid;
-    border-radius: 15px;
+    border-radius: 50px 5px;
     margin: 30px 400px;
-    padding: 10px;
+    padding: 20px;
     position: relative;
-    left: 20%;
+    left: 25%;
     box-shadow: 10px 12px 29px -1px rgba(0,0,0,0.75);
     -webkit-box-shadow: 10px 12px 29px -1px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 12px 29px -1px rgba(0,0,0,0.75);
-
+    background-color: #000000ab;
 
 }
 .tarjeta3{
-
+    
     border: 1px rgb(175, 175, 175) solid;
-    border-radius: 15px;
+    border-radius: 5px 50px ;
     margin: 30px 400px;
-    padding: 10px;
+    padding: 20px;
     position: relative;
-    right: 20%;
+    right: 25%;
     box-shadow: 10px 12px 29px -1px rgba(0,0,0,0.75);
     -webkit-box-shadow: 10px 12px 29px -1px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 12px 29px -1px rgba(0,0,0,0.75);
+    background-color: #000000ab;
 }
 
 .about{
@@ -600,17 +609,69 @@ section .especificaciones img{
     width: 20%;
 }
 
+#contenedor {
+    margin: 100px 0px -120px 10px;
+    padding: 1px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: start;
+  }
+
+  video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 850px;
+    object-fit: cover;
+
+}
+
+  .H1{
+    margin-top: 170px;
+    font-family: 'Vollkorn', serif;
+    color: #f11d1d96;
+  }
 /*CONTÁCTANOS*/
 
 .tarjeta{
-
+background-color: #000000a9;
     border: 1px rgb(175, 175, 175) solid;
     border-radius: 15px;
     margin: 30px 400px;
     padding: 10px;
     position: relative;
+    top: 80px;
+    
 
     box-shadow: 10px 12px 29px -1px rgba(0,0,0,0.75);
     -webkit-box-shadow: 10px 12px 29px -1px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 12px 29px -1px rgba(0,0,0,0.75);
 }
+
+.tarjeta input{
+    background-color: #504f4f86;
+    border: #aaaaaa00;
+}
+
+
+.cuerpo{
+    text-align: center;
+    margin: 20px 20px;
+
+    min-height: 100vh;
+    position: relative;
+}
+ 
+.video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+::placeholder { color: rgba(255, 250, 240, 0.589); }
