@@ -368,14 +368,13 @@ section span h2{
 
 section .especificaciones img{
     padding-top: 20px;
+
 }
 
 .dividir .tablaInfo p{
     font-size: 30px;
     font-weight: 800;
     color: red;
-    font-family: cursive;
-    border: red dashed;
     border-radius: 4px;
 }
 
@@ -384,6 +383,14 @@ section .especificaciones img{
     font-family: cursive;
     color: black;
     font-weight:170;
+}
+
+.infoColores{
+    display: inline-flex;
+    justify-content: center;
+    width: 90%;
+    height: 150px;
+    padding-bottom: 60px;
 }
 
 
