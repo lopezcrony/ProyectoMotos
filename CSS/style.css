@@ -9,7 +9,7 @@ body{
     top: 37px;
     margin: 0 ;
     color: #292929;
-    
+
 }
 
 p{
@@ -31,6 +31,7 @@ footer{
   text-align: center;
   margin-top: 100px;
   z-index: 10;
+
 }
 
 a{
@@ -64,6 +65,11 @@ a{
 .iconos img{
     padding-top: 10px;
 }
+/*Info index*/
+.serviciosIndex{
+    margin: 30px 20px 30px 20px;
+}
+
 
 /*Barra*/
 
@@ -471,6 +477,7 @@ section .especificaciones img{
 
 /*Slide de inicio*/
 
+
 .slide-item4 img {
     height: 340px;
     margin:0;
@@ -483,8 +490,8 @@ section .especificaciones img{
     position: relative;
     overflow: hidden;
     width: 100%;
-    height: calc( 770px + 3em);
 }
+
 .slide-open4:checked + .slide-item4 {
     position: static;
     opacity: 100;
@@ -497,15 +504,10 @@ section .especificaciones img{
 }
 .slide-item4 img {
     display: block;
-    height: 820px;
-    width: 1738px;
-    max-width: 4200px;
+    width: 100%;
+    height: 550px;
 }
-.c img {
-    height: 560px;
-    width: 1710px;
-    max-width: 4200px;
-}
+
 /*Fin slide de inicio*/
 
 /* About us */
@@ -556,7 +558,6 @@ main .sobre-nosotros{
 
 .about-services{
     background: #f2f2f2;
-    padding-bottom: 30px;
 }
 
 
@@ -744,6 +745,10 @@ main .sobre-nosotros{
     align-items: start;
   }
 
+  #contenedor p{
+    padding: 40px;
+  }
+
   video{
     position: absolute;
     top: 0;
@@ -795,7 +800,7 @@ background-color: #000000a9;
     top: 0;
     left: 0;
     width: 100%;
-    height: auto;
+    height: 100%;
     object-fit: cover;
 }
 
