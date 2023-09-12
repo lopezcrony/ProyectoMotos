@@ -470,6 +470,7 @@ section .especificaciones img{
 }
 
 /*Slide de inicio*/
+
 .slide-item4 img {
     height: 340px;
     margin:0;
@@ -501,11 +502,97 @@ section .especificaciones img{
     max-width: 4200px;
 }
 .c img {
-    height: 450;
-    width: 1210px;
+    height: 560px;
+    width: 1710px;
     max-width: 4200px;
 }
 /*Fin slide de inicio*/
+
+/* About us */
+
+main .sobre-nosotros{
+    padding: 30px 0 60px 0;
+}
+.contenedor-sobre-nosotros{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.imagen-about-us{
+    width: 44%;
+}
+
+.sobre-nosotros .contenido-textos{
+    width: 48%;
+}
+
+.contenido-textos h3{
+    margin-bottom: 15px;
+}
+
+.contenido-textos h3 span{
+    background: #292929;
+    color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    margin-right: 5px;
+}
+.contenido-textos h3 {
+    margin-bottom: 15px;
+    color: #000000;
+}
+.contenido-textos p{
+    padding: 0px 0px 30px 15px;
+    font-weight: 300;
+    text-align: justify;
+    color:#292929
+}
+/*  Our team */
+
+.about-services{
+    background: #f2f2f2;
+    padding-bottom: 30px;
+}
+
+
+.servicio-cont{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.servicio-ind{
+    width: 28%;
+    text-align: center;
+}
+
+.servicio-ind img{
+    width: 60%;
+}
+
+.servicio-ind h3{
+    margin: 10px 0;
+    color: #000000
+}
+
+.servicio-ind p{
+    font-weight: 300;
+    text-align: justify;
+    color: #000000
+    
+}
+
+.titulo {
+    color:#000000
+    
+}
+
+/**/
 
 .slide-control {
     background: rgba(0, 0, 0, 0.28);
